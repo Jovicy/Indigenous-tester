@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  nav {
+    position: relative;
+    top: 0rem;
+  }
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    gap: 1rem;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    padding: 1rem 1.7rem;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  /* Banner */
+  .banner-container {
+    flex-direction: column;
+  }
+
+  .banner-mails {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
