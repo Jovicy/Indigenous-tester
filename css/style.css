@@ -301,6 +301,25 @@ header {
   text-align: center;
 }
 
+.about-header {
+  height: 150vh;
+  background-image: 
+    radial-gradient(
+      circle at top left,
+      rgba(0, 0, 0, 0.1) 10%,  /* Reduce gradient opacity */
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("../images/about-bg.jpg") !important;
+  background-size: cover;
+  background-position: top 220px; /* Ensure top part of the image shows */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .header-title {
   display: flex;
   flex-direction: column;
@@ -871,8 +890,18 @@ textarea {
 
 .mission-img {
   width: 50%;
-  height: auto;
-  background-image: url("../images/mission-img.jpeg");
+  height: 70vh;
+  background-image: url("../images/new-mission.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.people-img {
+  width: 50%;
+  height: 60vh;
+
+  background-image: url("../images/people-img.jpeg");
   background-size: cover;
   background-position: center;
 }
