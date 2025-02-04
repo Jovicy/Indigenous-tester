@@ -168,6 +168,7 @@ input:focus {
   top: 0;
   width: 100%;
   z-index: 1000;
+  height: 80px;
 }
 
 .banner-main {
@@ -275,7 +276,7 @@ header {
     ),
     url("../images/new-home_bg.jpeg") !important;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
@@ -301,17 +302,34 @@ header {
   text-align: center;
 }
 
+.involved-header {
+  background-image: radial-gradient(
+      circle at top left,
+      rgba(0, 0, 0, 0.3) 10%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("../images/political-engagement.jpg") !important;
+}
+
+.impact-header {
+  background-image: radial-gradient(
+      circle at top left,
+      rgba(0, 0, 0, 0.3) 10%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("../images/culture-heritage.jpg") !important;
+}
+
 .about-header {
   height: 150vh;
-  background-image: 
-    radial-gradient(
+  background-image: radial-gradient(
       circle at top left,
-      rgba(0, 0, 0, 0.1) 10%,  /* Reduce gradient opacity */
-      rgba(0, 0, 0, 0.5) 100%
+      rgba(0, 0, 0, 0.1) 10%,
+      /* Reduce gradient opacity */ rgba(0, 0, 0, 0.5) 100%
     ),
     url("../images/about-bg.jpg") !important;
   background-size: cover;
-  background-position: top 220px; /* Ensure top part of the image shows */
+  background-position: top; /* Ensure top part of the image shows */
   background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
@@ -917,9 +935,10 @@ textarea {
 .who-img {
   width: 50%;
   height: auto;
-  background-image: url("../images/who-we-are.jpg");
-  background-size: cover;
+  background-image: url("../images/who-we-are.jpeg");
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .history_content-briefing {
@@ -1361,4 +1380,3 @@ textarea {
 .ecommerce-title h1 {
   font-size: 42px;
 }
-
