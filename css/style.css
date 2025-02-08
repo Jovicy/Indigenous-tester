@@ -164,11 +164,8 @@ input:focus {
 .banner {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 0;
   width: 100%;
   z-index: 1000;
-  height: 80px;
 }
 
 .banner-main {
@@ -203,8 +200,6 @@ input:focus {
 nav {
   background-color: var(--primary-color);
   padding: 1rem 0rem;
-  position: fixed;
-  top: 3rem; /* Adjusted */
   width: 100%;
   z-index: 999;
 }
@@ -268,7 +263,7 @@ nav {
 
 /* Header */
 header {
-  height: 150vh;
+  height: 100vh;
   background-image: radial-gradient(
       circle at top left,
       rgba(0, 0, 0, 0.3) 10%,
@@ -285,21 +280,12 @@ header {
   text-align: center;
 }
 .program-header {
-  height: 150vh;
   background-image: radial-gradient(
       circle at top left,
       rgba(0, 0, 0, 0.3) 10%,
       rgba(0, 0, 0, 0.7) 100%
     ),
     url("../images/program-bg.jpeg") !important;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .involved-header {
@@ -321,21 +307,12 @@ header {
 }
 
 .about-header {
-  height: 150vh;
   background-image: radial-gradient(
       circle at top left,
       rgba(0, 0, 0, 0.1) 10%,
       /* Reduce gradient opacity */ rgba(0, 0, 0, 0.5) 100%
     ),
     url("../images/about-bg.jpg") !important;
-  background-size: cover;
-  background-position: top; /* Ensure top part of the image shows */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .header-title {
@@ -898,46 +875,33 @@ textarea {
   display: flex;
 }
 
-.about_content-img {
+.cross-img {
   width: 50%;
   height: 60vh;
-  background-image: url("../images/values-img.jpeg");
   background-size: cover;
   background-position: center;
 }
 
+.about_content-img {
+  background-image: url("../images/values-img.jpeg");
+}
+
 .mission-img {
-  width: 50%;
-  height: 70vh;
   background-image: url("../images/new-mission.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: bottom;
 }
 
 .people-img {
-  width: 50%;
-  height: 60vh;
-
   background-image: url("../images/people-img.jpeg");
-  background-size: cover;
-  background-position: center;
 }
 
 .history-img {
-  width: 50%;
-  height: auto;
   background-image: url("../images/history-section.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
 .who-img {
-  width: 50%;
-  height: auto;
   background-image: url("../images/who-we-are.jpeg");
   background-size: contain;
-  background-position: center;
   background-repeat: no-repeat;
 }
 

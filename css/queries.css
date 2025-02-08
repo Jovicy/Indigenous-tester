@@ -1,4 +1,28 @@
 @media (max-width: 768px) {
+  .footer_main {
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .footer_main-cont {
+    width: 100%;
+  }
+
+  .footer-newsletter {
+    width: 100%;
+  }
+
+  .footer_sub {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .footer_sub-cont p {
+    text-align: center;
+  }
+
   nav {
     position: relative;
     top: 0rem;
@@ -37,4 +61,134 @@
     flex-direction: column;
     gap: 5px;
   }
+
+  /* Header */
+  header {
+    height: 80vh;
+  }
+
+  .main-title h1 {
+    font-size: 32px;
+  }
+
+  .title-paragraph {
+    width: 100%;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .cross-img {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .cross-briefing {
+    width: 100%;
+  }
+
+  .cross-diff {
+    flex-direction: column-reverse;
+  }
+  .board-title p {
+    width: 95%;
+  }
+  /* Pages */
+  /* Program Page */
+  .programs-cont {
+    flex-wrap: wrap;
+  }
+
+  .programs-title h1 {
+    font-size: 32px;
+  }
+
+  .programs_cont-card {
+    width: 100%;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr; 
+  }
+
+  /* Membership part */
+  .section-title {
+    font-size: 32px;
+  }
+
+  .membership-card {
+    width: 100%;
+  }
+
+  .membership-btn-container a {
+    font-size: 14px;
+  }
+
+  /* Ecomerce Section */
+  .e-commerce {
+    padding: 5rem 0rem;
+  }
+
+  .ecommerce-title {
+    width: 95%;
+  }
+
+  .ecommerce-title h1 {
+    font-size: 32px;
+  }
+
+  /* Involved Page */
+  .involved_cont-card {
+    width: 100%;
+  }
+
+  /* Contact Page */
+  .contact_page-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .contact_page-title {
+    width: 100%;   
+  }
+
+  .contact_page-card {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  .form-input_cont {
+    flex-direction: column;
+  }
+
+  /* Career Page */
+  .career_why-container {
+    flex-direction: column;
+  }
+
+  .career_why-img {
+    width: 100%;
+  }
+
+  .career_why-title {
+    width: 100%;
+  }
+
+  .careers_cont-card {
+    width: 100%;
+  }
+
+  .expression-of-interest {
+    width: 100%;
+  }
+  /* Home Pages */
 }
