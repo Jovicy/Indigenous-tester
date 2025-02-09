@@ -1,11 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   const menuBtn = document.querySelector(".menu-btn");
-  const navList = document.querySelector(".nav-list");
+  const navLists = document.querySelectorAll(".nav-list"); // Select both lists
 
   menuBtn.addEventListener("click", () => {
-    navList.classList.toggle("active");
+    navLists.forEach((navList) => {
+      navList.classList.toggle("active");
+    });
   });
 });
+
 
 const accordions = document.querySelectorAll('.accordion-item');
 
